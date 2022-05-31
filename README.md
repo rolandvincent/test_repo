@@ -5,12 +5,9 @@ Table Of Contents
     * [Register API](#register-api)
     * [Search API](#search-api)
     * [Predict API](#predict-api)
-  * [Organization Setup](#organization-setup)
-    * [General](#general)
-    * [Billing Cost](#billing-cost)
-    * [Role IAM](#role-iam)
-  * [API Development](#api-development)
-  * [References](#references)
+  * [Page Links](#page-links)
+    * [Claim Resources](#claim-resources)
+    * [User Resources](#user-resources)
 
 # Api
 
@@ -80,3 +77,15 @@ Dictionary of claim prediction
   "val_prediction" }
 ### Description
 Predict claim fake or fact
+
+# Page Links
+## Claim Resources
+- URL: `/uploads/claim/<resources>`
+- Content-Type: **None**
+- x-api-key: <User API Key>
+
+# Page Links
+## User Resources
+- URL: `/uploads/profil/<resources>`
+- Content-Type: **None**
+- x-api-key: <User API Key>
