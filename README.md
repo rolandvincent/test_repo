@@ -51,18 +51,18 @@ Register new user
 ### Response
 Dictionary of search result:
 { "attachment",
-"author_id",
-"comment_id",
-"date_created",
-"description",
-"downvote",
-"fake",
-"id",
-"num_click":,
-"title",
-"upvote",
-"url",
-"verified_by" }
+  "author_id",
+  "comment_id",
+  "date_created",
+  "description",
+  "downvote",
+  "fake",
+  "id",
+  "num_click":,
+  "title",
+  "upvote",
+  "url",
+  "verified_by" }
 ### Description
 Search claims with given keywords.
 
@@ -74,6 +74,9 @@ Search claims with given keywords.
   - title > Title of claim
   - content > Content of claim
 ### Response
-
+Dictionary of claim prediction
+{ "claim":,
+  "prediction",
+  "val_prediction" }
 ### Description
 Predict claim fake or fact
