@@ -68,7 +68,7 @@ Search claims with given keywords.
 
 ## Predict API
 ### Usage
-- URL: `/api/predict/
+- URL: `/api/predict/`
 - Content-Type: `application/json`
 - Field:
   - title > Title of claim
