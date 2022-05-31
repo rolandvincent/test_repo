@@ -16,7 +16,7 @@ Table Of Contents
 
 ## Auth API
 ### Usage
-- URL: `/api/auth/
+- URL: `/api/auth/`
 - Content-Type: `application/json`
 - Field:
   - username > Username
@@ -28,7 +28,7 @@ User login to get **_Api Key_**.
 
 ## Register API
 ### Usage
-- URL: `/api/registration/
+- URL: `/api/registration/`
 - Content-Type: `application/json`
 - Field:
   - username > Username
